@@ -29,6 +29,11 @@ function updateResult() {
     var placa = $("#placa-menu input[type='radio']:checked").val();
 
     console.log(cedula + " " + placa)
+
+
+    $(".day")
+
+
 }
 
 
