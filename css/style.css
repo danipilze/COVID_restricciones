@@ -1,35 +1,49 @@
-.sub-menu input[type="radio"] {
+  
+  
+  .main-menu {
+    position: absolute;
+    top: 10%;   
+    left: 5%;
+    z-index: 4;
+    text-align: center;
+  } 
+  .sub-menu {
+    padding-top: 20px;  
+  }
+  .sub-menu input[type="radio"] {
     display: none;  
   }
   .sub-menu input[type="checkbox"] {
     display: none;
   }
-  
-  
+
   .sub-menu input[type="radio"]:checked + .box {
     background-color: #009933;
-    left: 10px;
+    top: 10px;
     opacity: .8;   
   }
   .sub-menu input[type="radio"]+ .box span {
     color: white;
-    transform: translateY(40%);
+    text-align: center;
+    transform: translateY(60%);
   }
   .sub-menu input[type="radio"]:checked + .box span {
     color: white;
-    transform: translateY(25%);
+    transform: translateY(80%);
   }
   .sub-menu .box {
-    width: 130px;
-    height: 35px;
-    left: 5px;
+    width: 100px;
+    height: 100px;
+    top: 10px;
     background-color: #999999;
+    display: inline-block;
     opacity: .7; 
     transition: all 250ms ease;
     will-change: transition;
     text-align: center;
     cursor: pointer;
     position: relative;
+    font-size: xx-large;
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
   }
   .sub-menu .box span {
