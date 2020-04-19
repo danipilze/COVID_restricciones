@@ -40,10 +40,10 @@ function updateResult() {
                 if (placa != undefined){
                     if(pico_placa[i].includes(placa)){
                         $(".day #day-"+i).prop("class","box_yes");
-                        $(".day #day-"+i).html('<span><i class="fas fa-walking"> </i> '+days[i]+': Puedes salir, sin vehículo</span>');
+                        $(".day #day-"+i).html('<span><i class="fas fa-walking"> </i> '+days[i]+': Puedes salir, sin vehículo <i class="fas fa-ban"><i class="fas fa-car"> </span>');
                     }else{
                         $(".day #day-"+i).prop("class","box_yes");
-                        $(".day #day-"+i).html('<span><i class="fas fa-car"> </i> '+days[i]+': Puedes salir, con vehículo</span>');
+                        $(".day #day-"+i).html('<span><i class="fas fa-car"> </i> '+days[i]+': Puedes salir, con vehículo <i class="fas fa-check"><i class="fas fa-car"></span>');
                     }
                 }else{
                     $(".day #day-"+i).prop("class","box_yes");
