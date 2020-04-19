@@ -2,7 +2,7 @@
 $("input[type='radio']").click(function () {
     var status = $(this).data("status");
     var name = $(this).prop("name");
-
+    console.log(status + " " + name)
     // clear the other checked options of the radio group
     $("#" + name + "-menu input[type='radio']").each(function (index) {
         $(this).data("status", "unchecked");;
@@ -17,32 +17,19 @@ $("input[type='radio']").click(function () {
         $(this).data("status", "unchecked");
     }
 
-    //updateMap();
-
-    //gtag('event', $(this).data("status") + "", {
-    //    'event_category': "restricciones",
-    //    'event_label': name + " " + $(this).val() + ""
-    //});
-});
-
-$("input[type='checkbox']").click(function () {
-    var id = this.id;
-    var name = id.split("-")[0];
-    $("#" + name + "-layers").toggle({ direction: "top" }, 1000);
-    //gtag('event', "toggle" + "", {
-    //    'event_category': "restricciones",
-    //    'event_label': name + " " + id + ""
-    //});
+    updateResult();
 
 });
 
-$("#regions-checkbox").click(function () {
-    //updateMap();
-});
 
-$("#about-checkbox").click(function () {
-    $("#about-box").slideToggle("fast", "linear");
-});
+
+
+function updateResult() {
+    var cedula = $("#cedula-menu input[type='radio']:checked").val();
+    var placa = $("#placa-menu input[type='radio']:checked").val();
+
+    console.log(cedula + " " + placa)
+}
 
 
 
