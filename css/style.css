@@ -87,7 +87,7 @@
   .sub-menu .head span {
     font-size: 1em;
     position: absolute;
-    left: 0;
+    left: 5px;
     right: 0;
     transition: all 300ms ease;
     user-select: none;
