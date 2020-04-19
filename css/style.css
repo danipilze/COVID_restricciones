@@ -19,7 +19,7 @@
   }
 
   .sub-menu input[type="radio"]:checked + .box {
-    background-color: #009933;
+    background-color: #E8237B;
     top: 10px;
     opacity: .8;   
   }
@@ -76,7 +76,7 @@
   .sub-menu .head {
     width: 180px;
     height: 60px;
-    background-color: black;
+    background-color: #6E86D0;
     opacity: .7; 
     transition: all 250ms ease;
     will-change: transition;
