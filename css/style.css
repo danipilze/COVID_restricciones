@@ -1,0 +1,97 @@
+.sub-menu input[type="radio"] {
+    display: none;  
+  }
+  .sub-menu input[type="checkbox"] {
+    display: none;
+  }
+  
+  
+  .sub-menu input[type="radio"]:checked + .box {
+    background-color: #009933;
+    left: 10px;
+    opacity: .8;   
+  }
+  .sub-menu input[type="radio"]+ .box span {
+    color: white;
+    transform: translateY(40%);
+  }
+  .sub-menu input[type="radio"]:checked + .box span {
+    color: white;
+    transform: translateY(25%);
+  }
+  .sub-menu .box {
+    width: 130px;
+    height: 35px;
+    left: 5px;
+    background-color: #999999;
+    opacity: .7; 
+    transition: all 250ms ease;
+    will-change: transition;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+  }
+  .sub-menu .box span {
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 300ms ease;
+    user-select: none;
+    text-align: left;
+    margin-left: 5px;
+    color: #fff;
+  }
+  .sub-menu .box span:before {
+    font-size: 1em;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    transition: all 300ms ease-in-out;
+    font-weight: normal;
+    color: white;
+  }
+  
+  
+  .sub-menu input[type="checkbox"]:checked + .head {
+    background-color: white;
+    opacity: .8;   
+  }
+  .sub-menu input[type="checkbox"]+ .head span {
+    color: white;
+    transform: translateY(28%);
+  }
+  .sub-menu input[type="checkbox"]:checked + .head span {
+    color: black;
+    transform: translateY(25%);
+  }
+  .sub-menu .head {
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    opacity: .7; 
+    transition: all 250ms ease;
+    will-change: transition;
+    cursor: pointer;
+    position: relative;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+  }
+  .sub-menu .head span {
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 300ms ease;
+    user-select: none;
+    text-align: left;
+    margin-left: 5px;
+    color: #fff;
+  }
+  .sub-menu .head span:before {
+    font-size: 1em;
+    font-weight: bold;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    transition: all 300ms ease-in-out;
+    font-weight: normal;
+    color: white;
+  }
+  
