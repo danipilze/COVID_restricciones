@@ -1,4 +1,8 @@
   
+  h3{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+  }
   
   .main-menu {
     position: absolute;
