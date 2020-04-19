@@ -66,18 +66,12 @@
   }
   
   
-  .sub-menu input[type="checkbox"]:checked + .head {
-    background-color: white;
-    opacity: .8;   
-  }
+
   .sub-menu input[type="checkbox"]+ .head span {
     color: white;
     transform: translateY(28%);
   }
-  .sub-menu input[type="checkbox"]:checked + .head span {
-    color: black;
-    transform: translateY(25%);
-  }
+
   .sub-menu .head {
     width: 140px;
     height: 30px;
