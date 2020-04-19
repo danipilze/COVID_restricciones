@@ -9,6 +9,7 @@
   } 
   .sub-menu {
     padding-top: 20px;  
+    font-size: xx-large;
   }
   .sub-menu input[type="radio"] {
     display: none;  
@@ -25,15 +26,15 @@
   .sub-menu input[type="radio"]+ .box span {
     color: white;
     text-align: center;
-    transform: translateY(60%);
+    transform: translateY(55%);
   }
   .sub-menu input[type="radio"]:checked + .box span {
     color: white;
-    transform: translateY(80%);
+    transform: translateY(65%);
   }
   .sub-menu .box {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     top: 10px;
     background-color: #999999;
     display: inline-block;
@@ -74,7 +75,7 @@
 
   .sub-menu .head {
     width: 140px;
-    height: 30px;
+    height: 60px;
     background-color: black;
     opacity: .7; 
     transition: all 250ms ease;
