@@ -34,7 +34,7 @@ function updateResult() {
     pico_placa = [['5', '6'], ['7', '8'], ['9', '0'], ['1', '2'], ['3', '4'], [], []]
     console.log(cedula + " " + placa)
 
-    for (i = 0; i < 9; i++) {
+    for (i = 0; i < 7; i++) {
         if (cedula != undefined) {
             if (pico_cedula[i].includes(cedula)) {
                 if (placa != undefined) {
