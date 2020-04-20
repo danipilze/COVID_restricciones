@@ -137,8 +137,8 @@
     }
 
   .sub-menu .day .box_no {
-    width: 1000px;
-    height: 60px;
+    width: 800px;
+    height: 50px;
     top: 10px;
     background-color: #E8237B;
     display: inline-block;
@@ -148,7 +148,7 @@
     text-align: left;
     cursor: pointer;
     position: relative;
-    font-size: xx-large;
+    font-size: x-large;
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
   }
   .sub-menu .day .box_no span {
@@ -164,8 +164,8 @@
   }
 
   .sub-menu .day .box_yes {
-    width: 1000px;
-    height: 60px;
+    width: 800px;
+    height: 50px;
     top: 10px;
     background-color: #159245;
     display: inline-block;
@@ -175,7 +175,7 @@
     text-align: left;   
     cursor: pointer;
     position: relative;
-    font-size: xx-large;
+    font-size: x-large;
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
   }
   .sub-menu .day .box_yes span {
