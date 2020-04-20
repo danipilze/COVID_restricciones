@@ -44,7 +44,7 @@ function updateResult() {
                     } else {
                         if (pico_placa[i].includes(placa)) {
                             $(".day #day-" + i).prop("class", "box_yes");
-                            $(".day #day-" + i).html('<span><i class="fas fa-clock"> </i> ' + days[i] + ': Puedes salir, con vehículo en las franjas permitidas <i class="fas fa-clock"><i class="fas fa-car"></span>');
+                            $(".day #day-" + i).html('<span><i class="fas fa-clock"> </i> ' + days[i] + ': Puedes salir, con vehículo en horas permitidas <i class="fas fa-clock"><i class="fas fa-car"></span>');
                         }else{
                             $(".day #day-" + i).prop("class", "box_yes");
                             $(".day #day-" + i).html('<span><i class="fas fa-car"> </i> ' + days[i] + ': Puedes salir, con vehículo 24 horas <i class="fas fa-check"><i class="fas fa-car"></span>');
