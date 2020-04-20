@@ -2,10 +2,12 @@
   h3{
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
     text-align: left;
+    font-size: large;
   }
   p{
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
     text-align: left;
+    font-size: medium;
   }
   
   .main-menu {
