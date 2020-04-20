@@ -1,13 +1,27 @@
   
+  h1{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    font-size: x-large;
+    color: #333333;
+  }
+  h2{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    font-size: larger;
+    color: #999999;
+  }
   h3{
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
     text-align: left;
     font-size: large;
+    color: #333333;
   }
   p{
     font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
     text-align: left;
     font-size: medium;
+    color: #333333;
   }
   
   .main-menu {
