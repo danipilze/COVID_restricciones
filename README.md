@@ -8,6 +8,7 @@ https://www.cali.gov.co/tic/publicaciones/153106/pico-y-vida/
 
 ## Notas de prensa
 https://www.elpais.com.co/cali/caleno-crea-pagina-web-para-verificar-pico-y-cedula-y-pico-y-placa-en.html
+https://caracol.com.co/emisora/2020/04/20/cali/1587406548_453339.html
 
 ## Tweets del autor
 - https://twitter.com/Danipilze/status/1251942665442246658
