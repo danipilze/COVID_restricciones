@@ -2,10 +2,14 @@
 
 ## Micrositio 
 https://danipilze.github.io/COVID_restricciones/
+
+
 <img width="540" alt="Screen Shot 2020-04-22 at 3 26 59 PM" src="https://user-images.githubusercontent.com/3705866/80030492-dff7f780-84ad-11ea-8a0a-d89167086f2c.png">
 
 ## Página Oficial Alcaldía de Cali
 https://www.cali.gov.co/tic/publicaciones/153106/pico-y-vida/
+
+
 <img width="978" alt="Screen Shot 2020-04-22 at 3 29 03 PM" src="https://user-images.githubusercontent.com/3705866/80030577-03bb3d80-84ae-11ea-9318-04f2f56c9e2c.png">
 
 ## Notas de prensa
