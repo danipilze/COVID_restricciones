@@ -1,0 +1,283 @@
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="main-menu">
+        <h1>Pico y placa + pico y cédula + pico y vida</h1>
+        <h2>Cali, Colombia</h2>
+        <!-- CEDULA-->
+        <div id="cedula-menu" class="sub-menu">
+
+            <label>
+                <input type="checkbox" id="cedula-checkbox" />
+                <div class="head">
+                    <span>
+                        <i class="fas fa-id-card"> </i> Cedula: </span>
+                </div>
+            </label>
+
+
+
+            <div id="cedula-layers">
+                <label>
+                    <input type="radio" name="cedula" value="0" />
+                    <div class="box">
+                        <span>0</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="1" />
+                    <div class="box">
+                        <span>1</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="2" />
+                    <div class="box">
+                        <span>2</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="3" />
+                    <div class="box">
+                        <span>3</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="4" />
+                    <div class="box">
+                        <span>4</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="5" />
+                    <div class="box">
+                        <span>5</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="6" />
+                    <div class="box">
+                        <span>6</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="7" />
+                    <div class="box">
+                        <span>7</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="8" />
+                    <div class="box">
+                        <span>8</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="cedula" value="9" />
+                    <div class="box">
+                        <span>9</span>
+                    </div>
+                </label>
+
+            </div>
+        </div>
+
+        <!-- PLACA-->
+
+
+        <div id="placa-menu" class="sub-menu">
+
+            <label>
+                <input type="checkbox" id="placa-checkbox" />
+                <div class="head">
+                    <span>
+                        <i class="fas fa-car"> </i> Placa: </span>
+                </div>
+            </label>
+
+
+
+            <div id="placa-layers">
+                <label>
+                    <input type="radio" name="placa" value="0" />
+                    <div class="box">
+                        <span>0</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="1" />
+                    <div class="box">
+                        <span>1</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="2" />
+                    <div class="box">
+                        <span>2</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="3" />
+                    <div class="box">
+                        <span>3</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="4" />
+                    <div class="box">
+                        <span>4</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="5" />
+                    <div class="box">
+                        <span>5</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="6" />
+                    <div class="box">
+                        <span>6</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="7" />
+                    <div class="box">
+                        <span>7</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="8" />
+                    <div class="box">
+                        <span>8</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="placa" value="9" />
+                    <div class="box">
+                        <span>9</span>
+                    </div>
+                </label>
+
+            </div>
+        </div>
+
+        <!-- DIAS-->
+
+        <div id="dias-menu" class="sub-menu">
+
+            <label>
+                <input type="checkbox" id="placa-checkbox" />
+                <div class="head">
+                    <span>
+                        <i class="fas fa-calendar-alt"> </i> Días: </span>
+                </div>
+            </label>
+
+
+
+            <div id="dias-layers">
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-0">
+                        <span><i class="fas fa-ban"> </i> LUNES: Quédate en casa</span>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-1">
+                        <span><i class="fas fa-ban"> </i> MARTES: Quédate en casa</span>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-2">
+                        <span><i class=" fas fa-ban"> </i> MIÉRCOLES: Quédate en casa</span>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-3">
+                        <span><i class="fas fa-ban"> </i> JUEVES: Quédate en casa</span>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-4">
+                        <span><i class="fas fa-ban"> </i> VIERNES: Quédate en casa</span>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-5">
+                        <span><i class="fas fa-ban"> </i> SÁBADO: Quédate en casa</span>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="day" />
+                    <div class="box_no" id="day-6">
+                        <span><i class="fas fa-ban"> </i> DOMINGO: Quédate en casa</span>
+                    </div>
+                </label>
+
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <p>Si no te sale habilitado 24 horas sino solo en las horas permitidas, <br>
+        es porque te toca cumplir con el pico y placa habitual, <br>
+        estas son las franjas horarias permitidas:</p >
+        <p> 00:00am a 6:00am
+        <br>10:00am a 4:00pm
+        <br>8:00pm a 11:59pm</p>
+
+    <h3>Fuente:</h3>
+    <p><a href="https://www.cali.gov.co/metrocali/publicaciones/151374/empezo-a-regir-el-decreto-de-pico-y-placa-en-cali/"  target="_blank">Pico y Placa DECRETO No. 412.01.20.0032 de 2020 Alcaldía de Santiago de Cali</a></p>
+    <p><a href="https://www.cali.gov.co/tic/publicaciones/153106/pico-y-vida/"  target="_blank">Pico y Vida DECRETO No. 4112.010.20.0818 de 2020 Alcaldía de Santiago de Cali</a></p>
+    <h3>Autor:</h3>
+    <p>Daniel Amariles <a href="https://twitter.com/Danipilze/status/1251942665442246658">@Danipilze</a></p>
+    <script type="text/javascript" src="./js/script.js"></script>
+    
+
+</body>
+
+
+</html>
