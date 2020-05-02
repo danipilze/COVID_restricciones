@@ -1,0 +1,191 @@
+  
+  h1{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    font-size: x-large;
+    color: #333333;
+  }
+  h2{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    font-size: larger;
+    color: #999999;
+  }
+  h3{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    font-size: large;
+    color: #333333;
+  }
+  p{
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    text-align: left;
+    font-size: medium;
+    color: #333333;
+  }
+  
+  .main-menu {
+    top: 5%;   
+    left: 5%;
+    z-index: 4;
+    text-align: center;
+  } 
+  .sub-menu {
+    padding-top: 20px;  
+    font-size: xx-large;
+  }
+  .sub-menu input[type="radio"] {
+    display: none;  
+  }
+  .sub-menu input[type="checkbox"] {
+    display: none;
+  }
+
+  .sub-menu input[type="radio"]:checked + .box {
+    background-color: #707BD5;
+    top: 10px;
+    opacity: .8;   
+  }
+  .sub-menu input[type="radio"]+ .box span {
+    color: white;
+    text-align: center;
+    transform: translateY(55%);
+  }
+  .sub-menu input[type="radio"]:checked + .box span {
+    color: white;
+    transform: translateY(65%);
+  }
+
+  
+
+  .sub-menu .box {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    background-color: #999999;
+    display: inline-block;
+    opacity: .7; 
+    transition: all 250ms ease;
+    will-change: transition;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    font-size: xx-large;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+  }
+  .sub-menu .box span {
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 300ms ease;
+    user-select: none;
+    text-align: left;
+    margin-left: 5px;
+    color: #fff;
+  }
+  .sub-menu .box span:before {
+    font-size: 1em;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    transition: all 300ms ease-in-out;
+    font-weight: normal;
+    color: white;
+  }
+  
+  
+
+  .sub-menu input[type="checkbox"]+ .head span {
+    color: white;
+    transform: translateY(28%);
+  }
+
+  .sub-menu .head {
+    width: 180px;
+    height: 60px;
+    background-color: #333333;
+    opacity: .7; 
+    transition: all 250ms ease;
+    will-change: transition;
+    cursor: pointer;
+    position: relative;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+  }
+  .sub-menu .head span {
+    font-size: 1em;
+    position: absolute;
+    left: 5px;
+    right: 0;
+    transition: all 300ms ease;
+    user-select: none;
+    text-align: left;
+    margin-left: 5px;
+    color: #fff;
+  }
+  .sub-menu .head span:before {
+    font-size: 1em;
+    font-weight: bold;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+    transition: all 300ms ease-in-out;
+    font-weight: normal;
+    color: white;
+  }
+  
+  .sub-menu .day {
+    padding-top: 10px;  
+    align-content: left;
+    }
+
+  .sub-menu .day .box_no {
+    width: 95%;
+    height: 50px;
+    top: 10px;
+    background-color: #E8237B;
+    display: inline-block;
+    opacity: .7; 
+    transition: all 250ms ease;
+    will-change: transition;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    font-size: x-large;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+  }
+  .sub-menu .day .box_no span {
+    font-size: 1em;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: all 300ms ease;
+    user-select: none;
+    text-align: left;
+    margin-left: 5px;
+    color: #fff;
+  }
+
+  .sub-menu .day .box_yes {
+    width: 800px;
+    height: 50px;
+    top: 10px;
+    background-color: #159245;
+    display: inline-block;
+    opacity: .7; 
+    transition: all 250ms ease;
+    will-change: transition;
+    text-align: left;   
+    cursor: pointer;
+    position: relative;
+    font-size: x-large;
+    font-family:'Abel', Helvetica, Arial, Lucida, sans-serif;
+  }
+  .sub-menu .day .box_yes span {
+    font-size: 1em;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: all 300ms ease;
+    user-select: none;
+    text-align: left;
+    margin-left: 5px;
+    color: #fff;
+  }
+ 
