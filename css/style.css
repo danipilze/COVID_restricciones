@@ -100,7 +100,7 @@
   }
 
   .sub-menu .head {
-    width: 180px;
+    width: 200px;
     height: 60px;
     background-color: #333333;
     opacity: .7; 
@@ -163,7 +163,7 @@
   }
 
   .sub-menu .day .box_yes {
-    width: 800px;
+    width: 95%;
     height: 50px;
     top: 10px;
     background-color: #159245;
@@ -171,7 +171,7 @@
     opacity: .7; 
     transition: all 250ms ease;
     will-change: transition;
-    text-align: left;   
+    text-align: left;
     cursor: pointer;
     position: relative;
     font-size: x-large;
