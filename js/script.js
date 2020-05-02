@@ -40,15 +40,15 @@ function updateResult() {
                             if (placa != undefined) {
                                 if (pico_placa_particular[i].includes(placa)) {
                                     $(".day #day-" + i).prop("class", "box_yes");
-                                    $(".day #day-" + i).html('<span><i class="fas fa-clock"> </i> ' + days[i] + ': Tu vehículo puede salir en horas permitidas <i class="fas fa-clock"><i class="fas fa-car"></span>');
+                                    $(".day #day-" + i).html('<span><i class="fas fa-clock"> </i> ' + days[i] + ': Puedes salir con tu vehículo en horas permitidas <i class="fas fa-clock"><i class="fas fa-car"></span>');
                                 } else {
                                     $(".day #day-" + i).prop("class", "box_yes");
-                                    $(".day #day-" + i).html('<span><i class="fas fa-car"> </i> ' + days[i] + ': Tu vehículo puede salir 24 horas <i class="fas fa-check"><i class="fas fa-car"></span>');
+                                    $(".day #day-" + i).html('<span><i class="fas fa-car"> </i> ' + days[i] + ': Puedes salir con tu vehículo  24 horas <i class="fas fa-check"><i class="fas fa-car"></span>');
 
                                 }
                             } else {
                                 $(".day #day-" + i).prop("class", "box_yes");
-                                $(".day #day-" + i).html('<span><i class="fas fa-walking"> </i> ' + days[i] + ': Puedes salir caminando');
+                                $(".day #day-" + i).html('<span><i class="fas fa-walking"> </i> ' + days[i] + ': Puedes salir');
                             }
 
             } else {
